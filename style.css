@@ -1,0 +1,222 @@
+/*
+Theme Name:   	Storefront Child Starter Theme
+Theme URI:    	https://github.com/stuartduff/storefront-child-theme
+Author:       	Stuart Duff
+Author URI:     http://stuartduff.com
+Template:     	storefront
+Description:  	This is a blankish child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+Tags:         	two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+/*
+ * Add your own custom css below this text.
+ */
+
+
+html {
+
+	font-size:16px;
+}
+
+
+.primary-navigation {
+    float: right;
+}
+
+@media (min-width: 768px) {
+	.storefront-primary-navigation {
+	    clear: none;
+	    background: inherit;
+	    float: right;
+	    margin-left: inherit;
+	    margin-right: inherit;
+	    padding-left: inherit;
+	    padding-right: inherit;
+	    width: 680px;
+	}
+	.navigation {
+	    width: 100%;
+	}
+	.woocommerce-active .site-header .main-navigation {
+	    width: 70%;
+	}
+	
+
+
+/* Remove header */
+header#masthead {
+    margin-bottom: 0;
+}
+header.entry-header {
+    display: none;
+}
+
+
+.front-page-main-image {
+    height: 450px;
+}
+
+.view-products-button span {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+div#pg-8-0, div#pg-8-1 {
+    margin-bottom: 0;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+
+.navbarazul{
+
+background: linear-gradient(70deg, #823869, #2C9BB7);;
+
+}
+
+
+.fontsans{
+
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fontserrat{
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+
+	background-color: #f2f2f2;
+}
+
+nav.navbar.navbar-expand-lg{
+
+	background-color: #f2f2f2;
+}
+
+nav.navbar.navbar-expand-lg ul{
+
+margin-top: 2px;
+
+}
+nav.navbar.navbar-expand-lg ul li{
+
+	text-align: center;
+
+margin-bottom: 2px;
+margin-right: 10px;
+
+}
+nav.navbar.navbar-expand-lg ul li a{
+
+color: #000000;
+font-family: 'Montserrat', sans-serif;
+
+}
+nav.navbar.navbar-expand-lg ul li a:hover{
+
+background: transparent;
+
+}
+
+
+/* woo commerce*/
+ 
+
+
+
+.woocommerce-breadcrumb {
+display: none;
+}
+
+
+/* bootstrap*/
+
+.tajawal {
+
+font-family: 'Tajawal', sans-serif;
+
+
+}
+
+.montserrat {
+
+font-family: 'Montserrat', sans-serif;
+
+}
+
+p.montserrat {
+
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+p.text-center.montserrat.mb-5 {
+
+color:#dc3545;
+
+}
+
+
+a:hover{
+
+	text-decoration:none;
+
+	color:#DA256A;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+a {
+
+
+	text-decoration:none;
+	color:black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+a.card-title{
+
+
+	text-decoration:none;
+	color:#1C2833  ;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+div.rain {
+
+
+	background: linear-gradient(70deg, #823869, #2C9BB7);
+
+
+}
+
+
+h2, h5 {
+
+	color:#1C2833 ;
+	font-family: 'Montserrat', sans-serif;
+}
